@@ -73,7 +73,7 @@ const stringmessage =message.text
     else{
       div.classList.add('left');
     }
-    div.innerHTML = `<p class="meta">${message.username}<span>${message.time}</span></p>
+    div.innerHTML = `<p class="meta">${message.username}</p>
     <p class="text">
       ${message.text}
     </p>`;
